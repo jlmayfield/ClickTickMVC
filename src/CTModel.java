@@ -2,15 +2,15 @@ import java.util.Observable;
 
 public abstract class CTModel extends Observable {
 
-    abstract int getClicks();
+    public abstract int getClicks();
 
-    abstract int getTicks();
+    public abstract int getTicks();
 
-    abstract int getPresses();
+    public abstract int getPresses();
 
-    abstract void incrementClicks();
+    public abstract void incrementClicks();
 
-    abstract void incrementTicks();
+    public abstract void incrementTicks();
 
-    abstract void incrementPresses();
+    public abstract void incrementPresses();
 }
