@@ -1,7 +1,12 @@
 public class CTMain {
 
     public static void main(String[] args){
-        System.out.println("Hello World!");
+        CTModel m = new Model();
+        CTView v = new View();
+        CTControl c = new Control();
 
+        v.registerModel(m);
+        c.registerModel(m);
+        c.registerView(v);
     }
 }

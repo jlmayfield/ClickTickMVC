@@ -11,4 +11,5 @@ public interface CTView extends Observer {
     void addPressHandler(ActionListener pressctrl);
 
 
+    void toggleTimer();
 }
